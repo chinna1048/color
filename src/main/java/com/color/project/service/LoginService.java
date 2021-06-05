@@ -1,7 +1,10 @@
 package com.color.project.service;
 
+import org.springframework.stereotype.Service;
+
 import com.color.project.dto.LoginDTO;
 
+@Service
 public class LoginService {
 
 	private static String email = "medari@gmail.com";
